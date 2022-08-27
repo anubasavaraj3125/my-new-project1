@@ -26,7 +26,7 @@ def mergeSort(myList):
  myList[k]=right[j]
  j += 1
  k += 1
-myList = [54,26,93,17,77,31,44,55,20]
+myList = [54,26,93,17,77,31,44,55,65]
 mergeSort(myList)
 print(myList)
 end=time.time()
